@@ -55,7 +55,7 @@ SOURCES = ../lua/lapi.c \
           ../cocos2dx_support/lua_cocos2dx_deprecated.cpp
 
 
-include ../../../cocos2dx/proj.linux/cocos2dx.mk
+include ../../../../cocos/2d/proj.linux/cocos2dx.mk
 
 TARGET := $(LIB_DIR)/$(TARGET)
 SHAREDLIBS += -lextension

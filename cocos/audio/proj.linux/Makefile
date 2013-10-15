@@ -33,8 +33,8 @@ endif
     
 endif
 
-COCOS_ROOT = ../..
-include $(COCOS_ROOT)/cocos2dx/proj.linux/cocos2dx.mk
+COCOS_ROOT = ../../..
+include $(COCOS_ROOT)/cocos/2d/proj.linux/cocos2dx.mk
 
 TARGET := $(LIB_DIR)/$(TARGET)
 

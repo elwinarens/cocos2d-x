@@ -46,7 +46,7 @@ check_make_result
 make -C $COCOS2DX20_TRUNK/external/chipmunk/proj.linux DEBUG=1
 check_make_result
 
-make -C $COCOS2DX20_TRUNK/cocos2dx/proj.linux DEBUG=1
+make -C $COCOS2DX20_TRUNK/cocos/2d/proj.linux DEBUG=1
 check_make_result
 
 make -C $COCOS2DX20_TRUNK/CocosDenshion/proj.linux DEBUG=1

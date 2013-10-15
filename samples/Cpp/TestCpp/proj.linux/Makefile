@@ -135,7 +135,7 @@ SOURCES = ../Classes/AccelerometerTest/AccelerometerTest.cpp \
 SHAREDLIBS = -lcocos2d -lcocosdenshion -lcurl -lpng
 COCOS_LIBS = $(LIB_DIR)/libcocos2d.so $(LIB_DIR)/libcocosdenshion.so
 
-include ../../../../cocos2dx/proj.linux/cocos2dx.mk
+include ../../../../cocos/2d/proj.linux/cocos2dx.mk
 
 
 INCLUDES +=	 -I../ \
